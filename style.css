@@ -86,6 +86,26 @@ section .section-title::after {
   border-radius: var(--border-radius-s);
 }
 
+.nav-auth-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.auth-button {
+  padding: 8px 16px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: var(--border-radius-s);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: var(--accent-color);
+}
+
 /* Navbar styling */
 header {
   z-index: 5;
