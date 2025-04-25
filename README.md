@@ -1,7 +1,38 @@
-<<<<<<< HEAD
-﻿# Take1Coffe
-Na Take 1 Coffe ,no Brasil, orgulhamo-nos de ser um destino obrigatório tanto para os amantes do café como para os que procuram conversar. Dedicamo-nos a proporcionar uma experiência de café excepcional em um ambiente aconchegante e convidativo, onde os hóspedes podem relaxar, descontrair e aproveitar seu tempo com conforto.
-=======
-﻿# Take1Coffe
-Na Take 1 Coffe ,no Brasil, orgulhamo-nos de ser um destino obrigatório tanto para os amantes do café como para os que procuram conversar. Dedicamo-nos a proporcionar uma experiência de café excepcional em um ambiente aconchegante e convidativo, onde os hóspedes podem relaxar, descontrair e aproveitar seu tempo com conforto.
->>>>>>> f0c2e7c06063157e7096a36d9170618e390aba2b
+# Take1Coffe
+
+## Descrição
+
+**Take1Coffe** é um sistema de cafeteria desenvolvido com o objetivo de facilitar o gerenciamento de pedidos, cardápios e clientes. Este projeto foi criado como parte de um desenvolvimento acadêmico e visa ser uma plataforma completa para cafeterias.
+
+## Funcionalidades
+
+- **Cadastro de clientes**: Permite o cadastro de clientes no sistema para facilitar o processo de pedidos.
+- **Sistema de pedidos**: Os clientes podem realizar pedidos, com o sistema informando o status de cada pedido.
+- **Administração do cardápio**: O sistema permite ao administrador adicionar, editar e excluir itens do cardápio.
+- **Relatórios de vendas**: O administrador pode gerar relatórios detalhados sobre as vendas realizadas.
+
+## Tecnologias Utilizadas
+
+- **Frontend**:
+  - HTML
+  - CSS
+  - JavaScript
+
+- **Backend**:
+  - Node.js
+  - Express.js
+
+- **Banco de Dados**:
+  - MySQL
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+Certifique-se de ter o Node.js e o MySQL instalados em sua máquina.
+
+### Instalando Dependências
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/C4UEX/Take1Coffe.git
