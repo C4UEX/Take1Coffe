@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Take 1 Coffe</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: var(--primary-color);
+      color: var(--white-color);
+      font-family: var(--font-family);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: var(--background-color);
+      padding: 2rem;
+      border-radius: var(--border-radius-m);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .login-container .icon {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .login-container h2 {
+      margin-bottom: 1.5rem;
+      color: var(--secondary-color);
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+      text-align: left;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: var(--font-weight-medium);
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 0.75rem;
+      border-radius: var(--border-radius-s);
+      border: none;
+      font-size: var(--font-size-s);
+    }
+
+    .form-group input:focus {
+      outline: 2px solid var(--secondary-color);
+    }
+
+    .login-button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+      font-size: var(--font-size-s);
+      font-weight: var(--font-weight-medium);
+      border: none;
+      border-radius: var(--border-radius-s);
+      cursor: pointer;
+      transition: 0.3s ease;
+      text-transform: uppercase;
+    }
+
+    .login-button:hover {
+      background-color: var(--accent-color);
+    }
+
+    .register-link {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: var(--font-size-xs);
+    }
+
+    .register-link a {
+      color: var(--secondary-color);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="icon">☕</div>
+    <h2>Login Take 1 Coffe</h2>
+    <form action="login.php" method="POST">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Seu email" required />
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" name="password" id="senha" placeholder="Sua senha" required />
+      </div>
+      <button type="submit" class="login-button">Entrar</button>
+    </form>
+    <div class="register-link">
+      <p>Não tem conta? <a href="register.html">Registre-se</a></p>
+    </div>
+  </div>
+</body>
+</html>
+
+
